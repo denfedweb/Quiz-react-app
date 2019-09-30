@@ -1,0 +1,48 @@
+.Button{
+    padding: 5px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgba(161, 240, 69, .8);
+    background-color: transparent;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+.Button:hover{
+    text-shadow: 1px 1px 2px black, 0 0 1em green;
+} 
+.Button:disabled{
+  background-color: #ccc;
+  color: #000;
+  cursor: not-allowed;
+
+}
+
+.error{
+    background-color: rgba(240, 87, 108, 1);
+}
+.success{
+    background-color: rgb(107, 201, 0);
+    color: #000;
+}
+.primary{
+    background-color: #2884f6;
+    color: #fff;
+}
+
+/* 
+.FinishedQuiz button{
+    padding: 5px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgba(161, 240, 69, .8);
+    background-color: transparent;
+}
+.FinishedQuiz button:hover{
+    text-shadow: 1px 1px 2px black, 0 0 1em green;
+} */
