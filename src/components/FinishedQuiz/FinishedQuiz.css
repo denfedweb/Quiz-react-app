@@ -26,16 +26,3 @@
     text-shadow: 1px 1px 2px black, 0 0 1em red;
 }
 
-.FinishedQuiz button{
-    padding: 5px 20px;
-    border-radius: 5px;
-    outline: none;
-    border: 1px solid #fff;
-    cursor: pointer;
-    font-weight: bold;
-    color: rgba(161, 240, 69, .8);
-    background-color: transparent;
-}
-.FinishedQuiz button:hover{
-    text-shadow: 1px 1px 2px black, 0 0 1em green;
-}
